@@ -16,7 +16,7 @@ function textcopy() {
   }
 
 
-// クイズのためのJS
+// クイズのためのJS 杉本さくら
 function textcopy() {
     var textarea = document.getElementById("textarea").value;
     document.getElementById("textarea").value = "";
@@ -46,6 +46,7 @@ button.addEventListener("click", () => {
   header.classList.toggle("is-open");
 });
 
+//フェードイン 城内理人
 const FADEIN_ELEM = document.getElementById('fadein-1');
 
 window.addEventListener('scroll',() =>{
