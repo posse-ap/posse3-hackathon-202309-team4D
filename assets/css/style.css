@@ -1,38 +1,36 @@
-.QA-section{
-    text-align: center;
-    overflow: auto;
-    padding-top: 100px;
-}
 
-.QA-title{
+.quiz-form{
+    text-align: center;
+    padding: 30px;
+}
+.frame{
+    text-align: end;
+    padding: 20px;
+}
+.problem{
+    text-align: justify;
+    color: black;
+    border: 2px solid pink;
+    padding: 2em;
+    border-radius: 15px;
+}
+.title{
     text-align: center;
     font-size: 50px;
+    padding: 20px;
     font-weight: bold;
-    border-bottom: solid 3px #c44242;
-    background:liner-gradient(white,mintcream);
+    background: linear-gradient(white,azure);
 }
-
-.QA-lead{
-    font-size: 15px;
+.lead{
     text-align: center;
-    margin-top: 30px;
+}
+.quiz{
+    background-color: azure;
+}
+.far-fa-thumbs-up{
+    margin: 10px;
 }
 
-.QA-message{
-    margin-top: 80px;
-}
-
-.QA-answer{
-    margin-top: 80px;
-}
-
-.QA-container{
-    background-color: rgb(210, 236, 223);
-}
-
-.memo{
-    border-top: solid 1px #c44242;
-}
 .quiz-form{
     text-align: center;
     padding: 30px;
@@ -48,3 +46,31 @@
     text-align: justify;
     color: black;
 }
+
+.message{
+    color: black;
+    font-size:24px ;
+    font-weight: bold;
+    text-align: center;
+}
+
+.QA-inner{
+    margin-top: 30px;
+}
+
+.QA-answer{
+    padding-left:100px ;
+    padding-top: 100px;
+}
+
+.QA-title2{
+    font-size: 24px;
+
+}
+
+body{
+    height: 100vh;
+    weight: 100vw;
+    background-color: azure;
+}
+
