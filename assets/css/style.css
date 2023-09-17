@@ -1,3 +1,72 @@
+
+.quiz-form{
+    text-align: center;
+    padding: 30px;
+}
+.frame{
+    text-align: end;
+    padding: 20px;
+}
+.problem{
+    text-align: justify;
+    color: black;
+    border: 2px solid pink;
+    padding: 2em;
+    border-radius: 15px;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    font-weight: bold;
+    background: linear-gradient(white,azure);
+}
+.lead{
+    text-align: center;
+}
+.quiz{
+    background-color: azure;
+}
+.far-fa-thumbs-up{
+    margin: 10px;
+}
+
+=======
+.QA-section{
+    text-align: center;
+    overflow: auto;
+    padding-top: 100px;
+}
+
+.QA-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: solid 3px #c44242;
+    background:liner-gradient(white,mintcream);
+}
+
+.QA-lead{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.QA-message{
+    margin-top: 80px;
+}
+
+.QA-answer{
+    margin-top: 80px;
+}
+
+.QA-container{
+    background-color: rgb(210, 236, 223);
+}
+
+.memo{
+    border-top: solid 1px #c44242;
+}
 .quiz-form{
     text-align: center;
     padding: 30px;
