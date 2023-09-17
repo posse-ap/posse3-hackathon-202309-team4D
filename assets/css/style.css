@@ -27,11 +27,10 @@
 .quiz{
     background-color: azure;
 }
-.far-fa-thumbs-up{
+.fa-thumbs-up{
     margin: 10px;
 }
 
-=======
 .QA-section{
     text-align: center;
     overflow: auto;
