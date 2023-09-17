@@ -14,3 +14,32 @@ function textcopy() {
   }
 
 
+// 45行目まで日向担当のjs
+
+
+// ヘッダー・ボタンの要素を取得
+const header = document.getElementById("js-header");
+const button = document.getElementById("js-headerButton");
+
+// ボタンをクリックした時の処理
+button.addEventListener("click", () => {
+  header.classList.toggle("is-open");
+});
+
+const FADEIN_ELEM = document.getElementById('fadein-1');
+
+window.addEventListener('scroll',() =>{
+    const FADEIN_ELEM_TOP =FADEIN_ELEM.getBoundingClientRect().top;
+    const WINDOW_HEIGHT = window.innerHeight;
+    if (WINDOW_HEIGHT > (FADEIN_ELEM_TOP + 200)) {
+        FADEIN_ELEM.classList.add('con-inner-after');
+    }else{
+        FADEIN_ELEM.classList.remove('con-inner-after');
+    }
+});
+
+window.onload = function(){
+    const spin = document.getElementById('loading');
+    spin.classList.add('loaded');
+
+}
