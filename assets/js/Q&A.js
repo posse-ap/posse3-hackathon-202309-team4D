@@ -1,5 +1,5 @@
 
-// Q&AのためのJS
+// Q&AのためのJS 山田美咲
 function textcopy() {
     var textarea = document.getElementById("textarea").value;
     document.getElementById("textarea").value = "";
