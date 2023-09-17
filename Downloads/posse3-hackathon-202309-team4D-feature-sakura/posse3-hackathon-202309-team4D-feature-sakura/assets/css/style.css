@@ -2,9 +2,6 @@
     text-align: center;
     padding: 30px;
 }
-.quiz-section{
-    background-color:azure;
-}
 .frame{
     text-align: end;
     padding: 20px;
@@ -12,6 +9,9 @@
 .problem{
     text-align: justify;
     color: black;
+    border: 2px solid pink;
+    padding: 2em;
+    border-radius: 15px;
 }
 .title{
     text-align: center;
@@ -20,3 +20,10 @@
     font-weight: bold;
     background: linear-gradient(white,azure);
 }
+.lead{
+    text-align: center;
+}
+.quiz{
+    background-color: azure;
+}
+
