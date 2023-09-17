@@ -1,0 +1,22 @@
+.quiz-form{
+    text-align: center;
+    padding: 30px;
+}
+.quiz-section{
+    background-color:azure;
+}
+.frame{
+    text-align: end;
+    padding: 20px;
+}
+.problem{
+    text-align: justify;
+    color: black;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    font-weight: bold;
+    background: linear-gradient(white,azure);
+}
