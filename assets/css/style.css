@@ -174,7 +174,7 @@ body{
     letter-spacing: .1em;
     transition: color .3s linear;
     font-size: 14px;
-    display: inline-block;
+    display: inline-block; 
 }
 
 .header-img {
@@ -307,3 +307,4 @@ body{
     padding: 24px;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
