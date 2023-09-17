@@ -6,57 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/recet.css">
-    <link rel="stylesheet" href="../assets/css/sp/style.css">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <script src="../assets/js/script.js" defer></script>
+    <link rel="stylesheet" href="../assets/css/sp/style.css">
+    <script src="../assets/js/Q&A.js" defer></script>
 </head>
 
 <!-- Q&Aのフォーム -->
 
-<header class="header " id="js-header">
-    <a href="./" class="header-logo">
-        <img src="./img/logo.svg" alt="POSSE">
-    </a>
-    <button class="header-button" id="js-headerButton">
-        <span class="header-buttonLine"></span>
-        <span class="header-buttonLine"></span>
-        <span class="header-buttonLine"></span>
-    </button>
-    <nav class="header-nav">
-        <ul class="header-navList">
-            <li class="header-navItem">
-                <a href="#" class="header-navLink" target="_blank" rel="noopener noreferrer">
-                    <img src="./img/E382B4E383BCE383ABE38389E381AEE795AAE58FB7-3-E381A4E381AEE799BD.jpg" alt="unofficial" width="40" height="40">
-                </a>
-            </li>
-            <li class="header-navItem">
-                <a href="#" class="header-navLink" target="_blank" rel="noopener noreferrer">
-                    <img src="./img/numero-3-1.png" alt="写真・動画グループ" width="40" height="40">
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
 <body>
+    <header class="header " id="js-header">
+        <a href="./" class="header-logo">
+            <img src="../assets/img/logo.svg" alt="POSSE">
+        </a>
+        <button class="header-button" id="js-headerButton">
+            <span class="header-buttonLine"></span>
+            <span class="header-buttonLine"></span>
+            <span class="header-buttonLine"></span>
+        </button>
+        <nav class="header-nav">
+            <ul class="header-navList">
+                <li class="header-navItem">
+                    <a href="#" class="header-navLink" target="_blank" rel="noopener noreferrer">
+                        <img src="../assets/img/E382B4E383BCE383ABE38389E381AEE795AAE58FB7-3-E381A4E381AEE799BD.jpg" alt="unofficial" class="header-img">
+                    </a>
+                </li>
+                <li class="header-navItem">
+                    <a href="#" class="header-navLink" target="_blank" rel="noopener noreferrer">
+                        <img src="../assets/img/numero-3-1.png" alt="写真・動画グループ" class="header-img">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     <section id="contact" class="QA-section">
-        <div class="QA-container">
+        <div class="quiz">
             <div >
-                <span class="QA-title">Q&A</span>
-                <p class="QA-lead">ここではプログラミングで悩んだところを匿名で質問できます。<br>POSSE③内でしか共有されないため安心してご使用ください。</p>
+                <h1 class="title">助けてPOSSE③！</h1>
+                <a href="../html/3.5solve.html" class="lead">クイズに挑戦！</a>
+                <p class="lead">ここではプログラミングで悩んだところを匿名で質問できます。<br>POSSE③内でしか共有されないため安心してご使用ください。</p>
             </div>
             <div class="QA-inner inner--small">
-                <h1 class="QA-message">質問を入力してください</h1>
-                <form>
+                <h1 class="message">質問を入力してください</h1>
+                <form class="quiz-form">
                     <textarea id="textarea" rows="4" cols="40" placeholder="次のメモ"></textarea>
                     <button type="button" onclick="textcopy()">投稿</button>
                 </form>
             </div >
         </div>
-            <h2 class="QA-answer">質問と回答</h2>
+        <div class="QA-answer">
+            <h2 class="QA-title2">質問と回答</h2>
             <div>
                 <div id="insert"></div>
                 <div id="output"></div>
             </div>
+        </div>
     </section>
 </body>
 </html>
