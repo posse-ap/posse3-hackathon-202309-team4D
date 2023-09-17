@@ -1,3 +1,4 @@
+
 // Q&AのためのJS
 function textcopy() {
     var textarea = document.getElementById("textarea").value;
