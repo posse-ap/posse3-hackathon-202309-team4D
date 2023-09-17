@@ -32,12 +32,7 @@ function textcopy() {
     }
   }
 
-if (navigator.cookieEnabled)  // cookieが使えるか確認
-{
-    document.cookie = "key1=123";
-    document.cookie = "key2=ABC";
-    alert(document.cookie);  //
-}
+
 
 // 45行目まで日向担当のjs
 
