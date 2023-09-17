@@ -1,23 +1,96 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/recet.css">
-    <link rel="stylesheet" href="../assets/css/sp/style.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <script src="../assets/js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sp/style.css">
+    <link href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css" rel="stylesheet">
+    <link href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/4-1-1/css/4-1-1.css" rel="stylesheet">
 </head>
-
-<!-- メインのHTML -->
-
 <body>
+    <div id="loading">
+        <div class="loading-spin"></div>
+    </div>
+    <header class="header " id="js-header">
+        <a href="./" class="header-logo">
+            <img src="./img/logo.svg" alt="POSSE">
+        </a>
+        <button class="header-button" id="js-headerButton">
+            <span class="header-buttonLine"></span>
+            <span class="header-buttonLine"></span>
+            <span class="header-buttonLine"></span>
+        </button>
+        <nav class="header-nav">
+            <ul class="header-navList">
+                <li class="header-navItem">
+                    <a href="#" class="header-navLink" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/E382B4E383BCE383ABE38389E381AEE795AAE58FB7-3-E381A4E381AEE799BD.jpg" alt="unofficial" width="40" height="40">
+                    </a>
+                </li>
+                <li class="header-navItem">
+                    <a href="#" class="header-navLink" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/numero-3-1.png" alt="写真・動画グループ" width="40" height="40">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-    aaaa
-    
-    
+    <section class="mainV">
+        <div class="mainV-lead">
+            <span class="mainV-lead-inline">POSSE3</span>
+                成長サイト
+        </div>
+    </section>
+
+    <section class="section-con">
+        <div class="inner">
+            <h2 class="title">convenience</h2>
+            <div class="con-inner" id="fadein-1">
+                <article class="con-card">
+                    <a href="#" class="con-card-link">
+                        <figure class="con-card-image">
+                            <img src="./img/S__405438473.jpg" alt="" width="468px" height="300px">
+                        </figure>
+                        <div class="cta-section">
+                            <a href="" class="cta-button" target="_blank" rel="noopener noreferrer">Q&A</a>
+                        </div>
+                    </a>
+                </article>
+                <article class="con-card">
+                    <a href="#" class="con-card-link">
+                        <figure class="con-card-image">
+                            <img src="./img/S__405438475.jpg" alt="" width="468px" height="300px">
+                        </figure>
+                        <div class="cta-section">
+                            <a href="" class="cta-button" target="_blank" rel="noopener noreferrer">クイズ</a>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <a href="./" class="footer-logo">
+                <img src="./img/logo.svg" alt="POSSE">
+            </a>
+            <a href="#" class="footer-corporatelink" target="_blank" rel="noopener noreferrer">POSSE③公式サイト</a>
+        </div>
+        <div class="footer-copyright">
+            <small lang="en">&copy; 2023 POSSE</small>
+        </div>
+    </footer>
+
 </body>
+<script src="./js/script.js"></script>
+
 </html>
+
 
