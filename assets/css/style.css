@@ -1,0 +1,15 @@
+.quiz-form{
+    text-align: center;
+    padding: 30px;
+}
+.quiz-section{
+    background-color:azure;
+}
+.frame{
+    text-align: end;
+    padding: 20px;
+}
+.problem{
+    text-align: justify;
+    color: black;
+}
