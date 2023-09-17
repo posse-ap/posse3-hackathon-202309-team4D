@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +13,50 @@
 
 <!-- Q&Aのフォーム -->
 
+<header class="header " id="js-header">
+    <a href="./" class="header-logo">
+        <img src="./img/logo.svg" alt="POSSE">
+    </a>
+    <button class="header-button" id="js-headerButton">
+        <span class="header-buttonLine"></span>
+        <span class="header-buttonLine"></span>
+        <span class="header-buttonLine"></span>
+    </button>
+    <nav class="header-nav">
+        <ul class="header-navList">
+            <li class="header-navItem">
+                <a href="#" class="header-navLink" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/E382B4E383BCE383ABE38389E381AEE795AAE58FB7-3-E381A4E381AEE799BD.jpg" alt="unofficial" width="40" height="40">
+                </a>
+            </li>
+            <li class="header-navItem">
+                <a href="#" class="header-navLink" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/numero-3-1.png" alt="写真・動画グループ" width="40" height="40">
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
 <body>
-    
+    <section id="contact" class="QA-section">
+        <div class="QA-container">
+            <div >
+                <span class="QA-title">Q&A</span>
+                <p class="QA-lead">ここではプログラミングで悩んだところを匿名で質問できます。<br>POSSE③内でしか共有されないため安心してご使用ください。</p>
+            </div>
+            <div class="QA-inner inner--small">
+                <h1 class="QA-message">質問を入力してください</h1>
+                <form>
+                    <textarea id="textarea" rows="4" cols="40" placeholder="次のメモ"></textarea>
+                    <button type="button" onclick="textcopy()">投稿</button>
+                </form>
+            </div >
+        </div>
+            <h2 class="QA-answer">質問と回答</h2>
+            <div>
+                <div id="insert"></div>
+                <div id="output"></div>
+            </div>
+    </section>
 </body>
 </html>
