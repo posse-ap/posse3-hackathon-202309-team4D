@@ -29,13 +29,16 @@
     opacity: 1;
     transform: translate(0);
 }
+
+.con-card{
+    height: 400px;
+    width:468 ;
+}
     /**
     * 2.1 - ヘッダー
     */
-.header-logo {
-    width: 100px;
-    z-index: 1;
-}
+
+
 
 .header-button {
     width: 42px;
@@ -97,6 +100,10 @@
     padding: 120px 24px 40px;
     transition: visibility .3s linear, opacity .3s linear;
 }
+.main{
+    width: 100%;
+}
+
     /**
     * 2.2 - フッター
     */

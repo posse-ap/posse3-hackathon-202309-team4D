@@ -4,7 +4,7 @@ function textcopy() {
     var textarea = document.getElementById("textarea").value;
     document.getElementById("textarea").value = "";
     textarea = "<div class='frame'>" + "<p class='memo'>" + textarea + "</p>" +
-    "<form>"+"<input id='answer' rows='4' cols='40' placeholder='アドバイス'>"+"</input>"+"<button type='button' onclick='copy()' id='button'>"+"投稿"+"</button>"+"</form>"+
+    "<form>"+"<input id='answer' rows='3' cols='30' placeholder='アドバイス'>"+"</input>"+"<button type='button' onclick='copy()' id='button'>"+"投稿"+"</button>"+"</form>"+
     "</div>"+ document.getElementById("insert").innerHTML;
     document.getElementById("insert").innerHTML = textarea ;
 

@@ -1,7 +1,7 @@
 
 
 
-.quiz-form{
+/* .quiz-form{
     text-align: center;
     padding: 30px;
 }
@@ -11,8 +11,8 @@
 }
 .problem{
     text-align: justify;
-    color: black;
-    border: 4px solid pink;
+    color: #333b52;
+    border: 4px solid #333b52;
     padding: 2em;
     border-radius: 15px;
     background-color: white;
@@ -22,59 +22,27 @@
     font-size: 50px;
     padding: 20px;
     font-weight: bold;
-    background: linear-gradient(white,azure);
+    background: #eff3f4;
 }
 .lead{
     text-align: center;
 }
 .quiz{
-    background-color: azure;
+    background-color:#eff3f4;
 }
 .fa-thumbs-up{
     margin: 10px;
-}
+} */
 
-.QA-section{
-    text-align: center;
-    overflow: auto;
-    padding-top: 100px;
-}
-
-.QA-title{
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    border-bottom: solid 3px #c44242;
-    background:liner-gradient(white,mintcream);
-}
-
-.QA-lead{
-    font-size: 15px;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.QA-message{
-    margin-top: 80px;
-}
-
-.QA-answer{
-    margin-top: 80px;
-}
-
-.QA-container{
-    background-color: rgb(210, 236, 223);
-}
-
-.memo{
-    border-top: solid 1px #c44242;
+html{
+    width: 100%;
 }
 .quiz-form{
     text-align: center;
     padding: 30px;
 }
 .quiz-section{
-    background-color:azure;
+    background-color:#eff3f4;
 }
 .frame{
     text-align: end;
@@ -84,7 +52,7 @@
     text-align: justify;
     color: black;
 }
-=======
+
 .quiz-form{
     text-align: center;
     padding: 30px;
@@ -96,7 +64,7 @@
 .problem{
     text-align: justify;
     color: black;
-    border: 2px solid pink;
+    border: 2px solid #333b52;
     padding: 2em;
     border-radius: 15px;
 }
@@ -105,13 +73,13 @@
     font-size: 50px;
     padding: 20px;
     font-weight: bold;
-    background: linear-gradient(white,azure);
 }
 .lead{
     text-align: center;
+    display: block;
 }
 .quiz{
-    background-color: azure;
+    background-color: #eff3f4;
 }
 .far-fa-thumbs-up{
     margin: 10px;
@@ -121,20 +89,18 @@
     text-align: center;
     padding: 30px;
 }
-.quiz-section{
-    background-color:azure;
-}
+
 .frame{
     text-align: end;
     padding: 20px;
 }
 .problem{
     text-align: justify;
-    color: black;
+    color: #333b52;
 }
 
 .message{
-    color: black;
+    color: #333b52;
     font-size:24px ;
     font-weight: bold;
     text-align: center;
@@ -156,10 +122,26 @@
 
 body{
     height: 100vh;
-    weight: 100vw;
-    background-color: azure;
+    width: 100vw;
+    background-color: #eff3f4;
+    color: #333b52;
 }
 
+@keyframes bgchange{
+    0%   {background:#377c9d;}/*変化させたい色*/
+    35%  {background:#41919a;}/*変化させたい色*/
+    70%  {background:#a8ca54;}/*変化させたい色*/
+    100% {background:#377c9d;}/*変化させたい色*/
+}
+
+.color{
+    animation: bgchange 20s ease infinite;
+    height: 30px;
+}
+
+.quiz{
+    margin-top: 80px;
+}
 
 
 /* 237行目まで日向担当 */
@@ -188,7 +170,7 @@ body{
     width: 100vw;
     height: 100vh;
     transition: all 3s;
-    background-color: green;
+    background-color: #377c9d;
     position: fixed;
     top: 0;
     left: 0;
@@ -199,7 +181,7 @@ body{
     width: 100px;
     height: 100px;
     margin: 200px auto;
-    background-color: aqua;
+    background-color: #eff3f4;
     border-radius: 100%;
     animation: sk-scaleout 3.0s infinite ease-in-out;
 }
@@ -218,7 +200,28 @@ body{
     visibility: hidden;
 }
 
+.container{
+    min-width: 280px;
+    margin: 0 auto;
+}
+.main{
+    width: 100%;
+}
 
+.page-top {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    background-color: transparent;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+
+}
 /* header */
 
 .header {
@@ -245,6 +248,7 @@ body{
 
 .header-nav {
     display: flex;
+    align-items: center;
     gap: 48px;
 }
 
@@ -273,7 +277,9 @@ body{
 .mainV {
     height: 400px;
     position: relative;
-    background: #0071BC;
+    /* background: #36769a; */
+    width: 100%;
+    animation: bgchange 20s ease infinite;
 }
 
 .mainV-lead {
@@ -283,7 +289,7 @@ body{
     transform: translate(-50%,-50%);
     text-align: center;
     font-weight: bold;
-    color: aquamarine;
+    color: #eff3f4;
 }
 
 .mainV-lead-inline{
@@ -307,7 +313,7 @@ body{
     color: #0071bc;
     line-height: 1.5;
     letter-spacing: 0.1em;
-    background-color: #FFFFFF;
+    background-color: #eff3f4;
     border: solid 1px #0071BC;
     border-radius: 50px;
     position: relative;
@@ -316,8 +322,8 @@ body{
 
 .cta-button:hover{
     background-color: #0071BC;
-    color: #FFFFFF;
-    border-color: #FFFFFF;
+    color: #eff3ef;
+    border-color: #eff3ef;
 }
 
 .cta-section {
@@ -335,7 +341,7 @@ body{
     height: 400px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    background: #FFF;
+    background: #eff3ef;
     overflow: hidden;
 }
 
@@ -355,7 +361,7 @@ body{
 /* footer */
 
 .footer {
-    margin-top: 250px;
+    padding-top:15px;
     text-align: center;
 }
 
@@ -394,7 +400,7 @@ body{
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-=======
+/* =======
 .quiz-form{
     text-align: center;
     padding: 30px;
@@ -499,7 +505,7 @@ body{
     width: 100vw;
     height: 100vh;
     transition: all 3s;
-    background-color: green;
+    background-color: #333b52;
     position: fixed;
     top: 0;
     left: 0;
@@ -510,7 +516,7 @@ body{
     width: 100px;
     height: 100px;
     margin: 200px auto;
-    background-color: aqua;
+    background-color: #eff3f4;
     border-radius: 100%;
     animation: sk-scaleout 3.0s infinite ease-in-out;
 }
@@ -704,4 +710,4 @@ body{
     padding: 24px;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
-
+ */
